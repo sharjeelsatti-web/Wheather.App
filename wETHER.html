@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="weather.css">
+    <title>Weathwer. Application</title>
+</head>
+<body>
+    
+  <div class="card">
+
+    <!-- Search -->
+    <div class="search">
+        <input type="text" placeholder="Search city...">
+        <button>Search</button>
+    </div>
+
+    <!-- Main Weather -->
+    <div class="weather">
+
+        <img class="weathericon"
+             src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png"
+             alt="Weather">
+
+        <h1 class="weathertemp">23°C</h1>
+        <h2 class="cityname">Temperature</h2>
+
+    </div>
+
+    <!-- Details -->
+    <div class="details">
+
+        <!-- Humidity -->
+        <div class="humidity">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/728/728093.png"
+                 alt="Humidity">
+
+            <div class="info">
+                <div class="humiditytemp">33%</div>
+                <div class="humidity-name">Humidity</div>
+            </div>
+
+        </div>
+
+        <!-- Wind -->
+        <div class="wind">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/1247/1247001.png"
+                 alt="Wind">
+
+            <div class="info">
+                <div class="windtemp">33 km/h</div>
+                <div class="humidity-name">Wind</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+ <script src="weather.js"></script>
+</body>
+</html>
